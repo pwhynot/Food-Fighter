@@ -1,0 +1,42 @@
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1534963063257-6b65b54e438b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.food {
+    width:100px;
+    height:80px;
+ }
+
+ .jumbotron {
+     border-style: solid;
+     border-color: whitesmoke;
+     font-family: Arial, Helvetica, sans-serif;
+     
+ }
+
+ .panel-heading {
+     background-color: black;
+     color: white;
+     margin-top: 10px;
+     border-style: solid;
+     border-width: 1px;
+     border-color: whitesmoke;
+ }
+
+ .panel-body {
+     background-color: black;
+     color: whitesmoke;
+     margin-bottom: 5px;
+     border-style: solid;
+     border-width: 1px;
+     padding-left: 1rem;
+     padding-top: .5rem;
+     padding-bottom: .5rem;
+ }
