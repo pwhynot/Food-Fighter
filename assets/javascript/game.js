@@ -16,7 +16,7 @@ var food = {
   
   var currentScore = 0;
   var targetScore = 0;
-  var winCount = 0;
+  var winsCount = 0;
   var lossCount = 0;
   
 function getRandom(min, max) {
@@ -45,8 +45,8 @@ function addValues(food) {
 
 function checkWin () {
     if(currentScore === targetScore) {
-        winCount++;
-        $("#wins").html(winCount);
+        winsCount++;
+        $("#wins").html(winsCount);
         start ();
     } else if (currentScore > targetScore) {
         lossCount++;
